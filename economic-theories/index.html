@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Economics — Quick Reference</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@400;600;700&display=swap');
+    :root{
+      --bg:#ffffff;
+      --card:#f9f9f9;
+      --muted:#555;
+      --accent:#1a73e8;
+      --glass: rgba(0,0,0,0.02);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:'Gilroy', sans-serif;background:var(--bg);color:#222}
+    .wrap{max-width:1200px;margin:48px auto;padding:28px;background:var(--card);border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,0.08)}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    header h1{font-size:20px;margin:0;font-weight:700}
+    header p{margin:0;color:var(--muted);font-size:14px}
+
+    table{width:100%;border-collapse:collapse;background:transparent}
+    thead th{text-align:left;padding:10px 12px;font-size:13px;color:var(--muted);font-weight:600;letter-spacing:0.02em;border-bottom:1px solid #ddd}
+    tbody tr{background:var(--glass)}
+    td{padding:14px 12px;vertical-align:top;border-bottom:1px solid #eee}
+    tbody tr:hover{background:#f0f0f0}
+
+    .category{font-weight:700}
+    .figures{font-size:13px;color:var(--muted);margin-top:6px}
+    .explain{font-size:14px;line-height:1.45;margin-top:8px;color:#333}
+    .insight{font-size:14px;line-height:1.45;color:#333}
+
+    @media (max-width:900px){
+      .wrap{margin:18px;padding:18px}
+      thead{display:none}
+      table,tbody,thead,tr,td{display:block;width:100%}
+      td{padding:10px 0;border-bottom:none}
+      .row{padding:12px;background:#fafafa;border-radius:10px;margin-bottom:10px}
+    }
+
+    .meta{display:flex;gap:10px;align-items:center}
+    .chip{font-size:12px;padding:6px 10px;border-radius:999px;background:#f0f0f0;color:var(--muted);border:1px solid #e0e0e0}
+
+    footer{margin-top:16px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div>
+        <h1>Economics — Quick Reference</h1>
+        <p>Minimal, clean summary of schools, key figures, plain-language explanations, and core insights.</p>
+      </div>
+      <div class="meta">
+        <div class="chip">12 entries</div>
+        <div class="chip">Clean · Minimal</div>
+      </div>
+    </header>
+
+    <section aria-labelledby="table-title">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:18%">Category</th>
+            <th style="width:20%">Key Figures</th>
+            <th style="width:32%">Layman Explanation</th>
+            <th style="width:30%">Technical Insight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="category">Classical Economy</td>
+            <td class="figures">Adam Smith (1723–1790), David Ricardo (1772–1823)</td>
+            <td class="explain">If everyone makes what they’re best at and trades, all get richer (e.g., one farmer, one shoemaker).</td>
+            <td class="insight">Markets self-regulate; specialization boosts efficiency; comparative advantage benefits trade.</td>
+          </tr>
+          <tr>
+            <td class="category">Marxian Economy</td>
+            <td class="figures">Karl Marx (1818–1883)</td>
+            <td class="explain">Workers and owners are always in conflict; system will change to share wealth equally.</td>
+            <td class="insight">Capitalism breeds class conflict, leading to a classless society.</td>
+          </tr>
+          <tr>
+            <td class="category">Game Theory</td>
+            <td class="figures">John Nash (1928–2015)</td>
+            <td class="explain">Your best choice depends on what others do (e.g., two shops choosing prices).</td>
+            <td class="insight">Strategic decisions depend on others’ choices; Nash equilibrium formalizes balance.</td>
+          </tr>
+          <tr>
+            <td class="category">Neoclassical Economy</td>
+            <td class="figures">Alfred Marshall (1842–1924), George Stigler (1911–1991)</td>
+            <td class="explain">Prices rise if demand is high and supply is low, and fall if the reverse (e.g., mango season).</td>
+            <td class="insight">Supply, demand, and marginal analysis set prices; markets generally efficient.</td>
+          </tr>
+          <tr>
+            <td class="category">Keynesian Economy</td>
+            <td class="figures">John Maynard Keynes (1883–1946)</td>
+            <td class="explain">In bad times, government should spend more to keep people working (like giving construction jobs).</td>
+            <td class="insight">Government spending stabilizes recessions; demand drives short-term output.</td>
+          </tr>
+          <tr>
+            <td class="category">Supply-Side Economy</td>
+            <td class="figures">Arthur Laffer (1940– )</td>
+            <td class="explain">Cutting taxes can make people work and invest more, growing the economy.</td>
+            <td class="insight">Lower taxes and deregulation spur growth; Laffer curve shows optimal tax rate.</td>
+          </tr>
+          <tr>
+            <td class="category">Monetarism</td>
+            <td class="figures">Milton Friedman (1912–2006)</td>
+            <td class="explain">Too much money in the system causes prices to rise; control money to control inflation.</td>
+            <td class="insight">Money supply control is key to inflation and stability; minimal intervention preferred.</td>
+          </tr>
+          <tr>
+            <td class="category">Development Economics</td>
+            <td class="figures">Abhijit Banerjee (1961– ), Muhammad Yunus (1940– )</td>
+            <td class="explain">Small loans or targeted help can lift poor people out of poverty (e.g., starting a shop).</td>
+            <td class="insight">Poverty alleviation via microfinance and evidence-based interventions.</td>
+          </tr>
+          <tr>
+            <td class="category">Austrian School</td>
+            <td class="figures">Carl Menger (1840–1921), Friedrich Hayek (1899–1992), Ludwig von Mises (1881–1973)</td>
+            <td class="explain">People value things differently; free markets find prices without government control.</td>
+            <td class="insight">Individual choice, subjective value, and skepticism of central planning.</td>
+          </tr>
+          <tr>
+            <td class="category">Behavioral Economics</td>
+            <td class="figures">Amos Tversky (1937–1996), Daniel Kahneman (1934–2024)</td>
+            <td class="explain">People make choices based on feelings and shortcuts, not pure logic (e.g., buying sale items you don’t need).</td>
+            <td class="insight">Psychological biases shape decisions, challenging rational actor model.</td>
+          </tr>
+          <tr>
+            <td class="category">New Institutional Economics</td>
+            <td class="figures">Ronald Coase (1910–2013), Douglas North (1920–2015)</td>
+            <td class="explain">Good rules and trust help economies work better (e.g., safe contracts encourage business).</td>
+            <td class="insight">Institutions and transaction costs shape performance; norms and rules matter.</td>
+          </tr>
+          <tr>
+            <td class="category">Public Choice Theory</td>
+            <td class="figures">James Buchanan (1919–2013), Gordon Tullock (1922–2014)</td>
+            <td class="explain">Politicians act in their own interest too, not just for the public (e.g., promising things to win votes).</td>
+            <td class="insight">Politics analyzed with economic logic; actors are self-interested.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      Tip: copy this file and open it locally for offline reference.
+    </footer>
+  </div>
+</body>
+</html>
